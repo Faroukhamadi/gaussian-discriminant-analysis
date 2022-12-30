@@ -5,6 +5,10 @@ import math
 
 def sigmoid(x):
     return 1 / (1 + math.exp(-x))
+# def sigmoid(x):
+#     if x < 0:
+#         return 1 - 1 / (1 + math.exp(x))
+#     return 1 / (1 + math.exp(-x))
 
 
 def add_intercept(x):
